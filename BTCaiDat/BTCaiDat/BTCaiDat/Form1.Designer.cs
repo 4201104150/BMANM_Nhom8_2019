@@ -34,6 +34,7 @@
             this.menuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.pubgKeyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pubgKey02ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -77,7 +78,8 @@
             // menuToolStripMenuItem
             // 
             this.menuToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.pubgKeyToolStripMenuItem});
+            this.pubgKeyToolStripMenuItem,
+            this.pubgKey02ToolStripMenuItem});
             this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
             this.menuToolStripMenuItem.Size = new System.Drawing.Size(69, 29);
             this.menuToolStripMenuItem.Text = "Menu";
@@ -98,6 +100,12 @@
             this.pubgKeyToolStripMenuItem.Name = "pubgKeyToolStripMenuItem";
             this.pubgKeyToolStripMenuItem.Size = new System.Drawing.Size(210, 30);
             this.pubgKeyToolStripMenuItem.Text = "Pubg key";
+            // 
+            // pubgKey02ToolStripMenuItem
+            // 
+            this.pubgKey02ToolStripMenuItem.Name = "pubgKey02ToolStripMenuItem";
+            this.pubgKey02ToolStripMenuItem.Size = new System.Drawing.Size(210, 30);
+            this.pubgKey02ToolStripMenuItem.Text = "pubg key 02";
             // 
             // Form1
             // 
@@ -125,6 +133,7 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem menuToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pubgKeyToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pubgKey02ToolStripMenuItem;
     }
 }
 
